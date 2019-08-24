@@ -1,14 +1,8 @@
-# Tamtmaya-Back-End
+# Fox Star-Back-End
 
-News feed  app with its endpoints
+admin panel  app with its endpoints
 
--user can login,register and post a new text or photo
-
--all users can see all posts from other users at real time manner
-
-## Learning Pusher
-
-https://pusher.com/docs
+-user can login and post a new Serie or Ring
 
 ## Learning Laravel
 
@@ -26,7 +20,6 @@ If you discover a security vulnerability , please send an e-mail to Mahmoud Hamm
 
 ## Up and Running
 
-create pusher account from https://dash.pusher.com/authenticate/register
 
 git clone rep
 
@@ -46,14 +39,6 @@ DB_USERNAME=xxxxxxxxx
 
 DB_PASSWORD=xxxxxxxxx
 
-PUSHER_APP_ID=xxxxxxxxx
-
-PUSHER_KEY=xxxxxxxxxxx
-
-PUSHER_SECRET=xxxxxxxxxx
-
-PUSHER_APP_CLUSTER=
-
 php artisan key:generate
 
 php artisan vendor:publish
@@ -62,8 +47,8 @@ composer dumpautoload
 
 php artisan migrate
 
+php artisan passport:install
+
 php artisan db:seed
 
-## open app url and login with mahmoudhammam517@gmail.com , secret
-
-## open /events.rss url on your installed app to see Rss xml file result 
+## open app url and login with admin@admin.com , Mm09876543*
